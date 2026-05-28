@@ -1,0 +1,1 @@
+// Confidence Systems - auth module

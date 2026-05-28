@@ -1,0 +1,14 @@
+{
+  "name": "@observability/observability",
+  "version": "0.1.0",
+  "description": "Observability utilities for Confidence Systems",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.0.0",
+    "winston": "^3.11.0"
+  }
+}

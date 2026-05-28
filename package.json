@@ -1,0 +1,44 @@
+{
+  "name": "confidence-systems-os",
+  "version": "0.1.0",
+  "description": "AI-native operational execution, workflow verification, compliance automation platform",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "apps/api",
+    "apps/mobile",
+    "apps/ai-services",
+    "packages/ui",
+    "packages/types",
+    "packages/config",
+    "packages/workflow-engine",
+    "packages/analytics",
+    "packages/integrations",
+    "packages/auth",
+    "packages/observability"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,json,md}\"",
+    "type-check": "turbo run type-check",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "db:migrate": "cd apps/api && npm run db:migrate",
+    "db:seed": "cd apps/api && npm run db:seed"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0",
+    "turbo": "^1.10.0"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}

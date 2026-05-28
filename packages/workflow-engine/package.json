@@ -1,0 +1,10 @@
+{
+  "name": "@workflow-engine/workflow-engine",
+  "version": "0.1.0",
+  "description": "Confidence Systems - workflow-engine package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}

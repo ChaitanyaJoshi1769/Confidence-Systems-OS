@@ -1,0 +1,10 @@
+{
+  "name": "@ui/ui",
+  "version": "0.1.0",
+  "description": "Confidence Systems - ui package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}
