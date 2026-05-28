@@ -12,6 +12,7 @@ import { EvidenceModule } from './modules/evidence/evidence.module';
 import { ComplianceModule } from './modules/compliance/compliance.module';
 import { OperationsModule } from './modules/operations/operations.module';
 import { IntegrationModule } from './modules/integration/integration.module';
+import { AIVerificationModule } from './modules/ai-verification/ai-verification.module';
 import { ObservabilityModule } from '@observability/observability.module';
 import { CacheModule } from '@nestjs/cache-manager';
 import * as redisStore from 'cache-manager-redis-store';
@@ -58,6 +59,7 @@ import * as redisStore from 'cache-manager-redis-store';
     ComplianceModule,
     OperationsModule,
     IntegrationModule,
+    AIVerificationModule,
   ],
   providers: [],
 })
